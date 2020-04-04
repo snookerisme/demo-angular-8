@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body{
+    background-color: #b9e3ae;
+}
+
+.btn-paimary{
+    background-color: #47c327;
+}
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.mat-form-field {
+    width: 500px; 
+}

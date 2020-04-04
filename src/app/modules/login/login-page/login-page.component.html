@@ -1,0 +1,24 @@
+<div class="layout-content center">
+    <div class="center">
+        <img src="../../../../assets/images/logo.png" width="250px" height="250px" />
+    </div>
+    <div class="login">
+        <div>
+            <mat-form-field class="example-full-width">
+                <mat-label>Username</mat-label>
+                <input matInput placeholder="Input your username" [(ngModel)]="username" required>
+            </mat-form-field>
+        </div>
+        <div>
+            <mat-form-field class="example-full-width">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Input your password" [(ngModel)]="password" type="password" required>
+            </mat-form-field>
+        </div>
+        <div>
+            <button class="btn-paimary" mat-raised-button (click)="submit()"
+                [disabled]="username == '' || password ==''">Login</button>
+        </div>
+    </div>
+
+</div>
